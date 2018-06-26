@@ -18,3 +18,38 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width:600px) {
+  .tile {
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
+  }
+  .main-content {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:600px) {
+  .tile {
+    display: inline-block;
+    width:45%;
+    overflow: hidden;
+  }
+  .main-content {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:900px) {
+  .tile {
+    display: inline-block;
+    width:29%;
+    overflow: hidden;
+  }
+  .main-content {
+    text-align: center;
+  }
+}
