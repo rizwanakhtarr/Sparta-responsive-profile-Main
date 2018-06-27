@@ -45,3 +45,18 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+@media screen and (max-width:950px) {
+  .left {
+    display: none;
+  }
+  .right {
+    margin-right: 40px;
+
+  }
+
+  ul {
+    margin-left: -50px;
+  }
+
+}
